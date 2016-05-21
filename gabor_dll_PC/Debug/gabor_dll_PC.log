@@ -1,0 +1,310 @@
+﻿生成启动时间为 2016/5/12 14:27:21。
+     1>项目“D:\FilterGorbal_20160425\gabor_dll_PC\gabor_dll_PC.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\gabor_dll_PC.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\gabor_dll_PC.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\gabor_dll_PC.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gabor_dll_PC.cpp
+         gabor_dll_PC.cpp
+     1>d:\filtergorbal_20160425\gabor_dll\exportfun.h(8): warning C4190: “deleteEvent”有指定的 C 链接，但返回了与 C 不兼容的 UDT“Gabor_Result”
+                 d:\filtergorbal_20160425\gabor_dll\gaborresult.h(3) : 参见“Gabor_Result”的声明
+     1>d:\filtergorbal_20160425\gabor_dll\exportfun.h(10): warning C4190: “insertEvent”有指定的 C 链接，但返回了与 C 不兼容的 UDT“Gabor_Result”
+                 d:\filtergorbal_20160425\gabor_dll\gaborresult.h(3) : 参见“Gabor_Result”的声明
+     1>d:\filtergorbal_20160425\gabor_dll\exportfun.h(11): warning C4190: “gabor_arithmetic”有指定的 C 链接，但返回了与 C 不兼容的 UDT“Gabor_Result”
+                 d:\filtergorbal_20160425\gabor_dll\gaborresult.h(3) : 参见“Gabor_Result”的声明
+     1>d:\filtergorbal_20160425\gabor_dll\exportfun.h(19): warning C4190: “The_monitoring_mode”有指定的 C 链接，但返回了与 C 不兼容的 UDT“Gabor_Result”
+                 d:\filtergorbal_20160425\gabor_dll\gaborresult.h(3) : 参见“Gabor_Result”的声明
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(10): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atldef.h(107) : 参见“DEBUG”的前一个定义
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(244): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(248): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(255): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(318): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(321): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(324): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(327): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(330): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(333): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(336): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(491): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(526): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(580): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(698): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(2054): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3211): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3224): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3250): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3504): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3511): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3512): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3519): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3522): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3525): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3528): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3530): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3533): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3536): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3539): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3548): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3551): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3554): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3557): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3559): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3562): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3565): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3568): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3576): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3577): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(3583): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(4922): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5171): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5176): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5188): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5202): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5205): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5280): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5300): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5579): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5614): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5678): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5679): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5682): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5683): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5688): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5689): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5693): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5698): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5699): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5703): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5708): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5709): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5713): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5718): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5719): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5728): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5729): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5730): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5738): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5739): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5740): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5743): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5748): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5749): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5752): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5753): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5759): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5760): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5762): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5763): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5768): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5769): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5770): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5772): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5773): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5778): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5779): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5780): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5782): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5783): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5788): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5790): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5792): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5793): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5800): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5815): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5816): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5819): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5820): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5825): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5826): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5829): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5830): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5835): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5836): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5839): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5840): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5845): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5846): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5849): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5850): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5855): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5856): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5859): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5865): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5866): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5867): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5869): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5870): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5875): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5876): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5877): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5879): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5880): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5885): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5886): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5889): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5895): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5896): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5897): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5899): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5905): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5906): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5907): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5909): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5915): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5916): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5917): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5919): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5920): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5925): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5927): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5929): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5930): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5937): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5952): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5953): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5956): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5957): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5962): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5963): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5966): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5967): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5972): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5973): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5976): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5977): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5982): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5983): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5986): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5987): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5992): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5993): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5996): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(5997): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6002): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6004): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6006): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6007): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6012): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6013): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6014): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6016): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6017): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6022): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6023): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6026): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6027): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6032): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6033): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6034): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6036): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6037): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6042): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6043): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6044): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6046): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6052): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6053): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6054): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6056): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6062): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6063): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6064): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6066): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6072): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6073): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6074): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6076): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6077): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6093): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6103): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6107): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6118): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6122): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6128): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6131): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6274): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6281): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6285): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6291): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6295): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6299): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6303): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6307): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6315): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6318): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6325): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6412): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6425): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6480): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6710): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6722): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6750): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6760): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6769): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6968): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6996): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7005): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7006): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7012): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7034): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7139): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(6903): warning C4101: “k”: 未引用的局部变量
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7253): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7257): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7261): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7265): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7269): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7273): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7294): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7298): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7302): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7306): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7310): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7331): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7343): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7359): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7362): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7363): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7415): warning C4244: “=”: 从“float”转换到“WORD”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7429): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7433): warning C4244: “=”: 从“float”转换到“WORD”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7459): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7464): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7468): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\filtergorbal_20160425\gabor_dll\gabordllfun.h(7470): warning C4244: “=”: 从“float”转换到“WORD”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\gabor_dll_PC.res" gabor_dll_PC.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gabor_dll_PC.dll.embed.manifest.res" Debug\gabor_dll_PC_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\FilterGorbal_20160425\Debug\gabor_dll_PC.dll) 与 Linker 的 OutputFile 属性值(D:\FilterGorbal_20160425\Debug\GABOR.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(gabor_dll_PC) 与 Linker 的 OutputFile 属性值(GABOR)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FilterGorbal_20160425\Debug\GABOR.dll" /INCREMENTAL /NOLOGO /DEF:".\gabor_dll_PC.def" /MANIFEST /ManifestFile:"Debug\gabor_dll_PC.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FilterGorbal_20160425\Debug\gabor_dll_PC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FilterGorbal_20160425\Debug\gabor_dll_PC.lib" /MACHINE:X86 /DLL Debug\gabor_dll_PC.res
+         Debug\gabor_dll_PC.dll.embed.manifest.res
+         Debug\gabor_dll_PC.obj
+         Debug\stdafx.obj
+            正在创建库 D:\FilterGorbal_20160425\Debug\gabor_dll_PC.lib 和对象 D:\FilterGorbal_20160425\Debug\gabor_dll_PC.exp
+     1>gabor_dll_PC.exp : warning LNK4070: .EXP 中的 /OUT:gabor_dll_PC.dll 指令与输出文件名“D:\FilterGorbal_20160425\Debug\GABOR.dll”不同；忽略指令
+       Manifest:
+         正在删除文件“Debug\gabor_dll_PC.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\gabor_dll_PC.dll.embed.manifest" /manifest Debug\gabor_dll_PC.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gabor_dll_PC.dll.embed.manifest.res" Debug\gabor_dll_PC_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FilterGorbal_20160425\Debug\GABOR.dll" /INCREMENTAL /NOLOGO /DEF:".\gabor_dll_PC.def" /MANIFEST /ManifestFile:"Debug\gabor_dll_PC.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FilterGorbal_20160425\Debug\gabor_dll_PC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FilterGorbal_20160425\Debug\gabor_dll_PC.lib" /MACHINE:X86 /DLL Debug\gabor_dll_PC.res
+         Debug\gabor_dll_PC.dll.embed.manifest.res
+         Debug\gabor_dll_PC.obj
+         Debug\stdafx.obj
+            正在创建库 D:\FilterGorbal_20160425\Debug\gabor_dll_PC.lib 和对象 D:\FilterGorbal_20160425\Debug\gabor_dll_PC.exp
+     1>gabor_dll_PC.exp : warning LNK4070: .EXP 中的 /OUT:gabor_dll_PC.dll 指令与输出文件名“D:\FilterGorbal_20160425\Debug\GABOR.dll”不同；忽略指令
+         gabor_dll_PC.vcxproj -> D:\FilterGorbal_20160425\Debug\gabor_dll_PC.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\gabor_dll_PC.unsuccessfulbuild”。
+         正在对“Debug\gabor_dll_PC.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\FilterGorbal_20160425\gabor_dll_PC\gabor_dll_PC.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.18

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SOR", "SOR\SOR.vcxproj", "{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gabor_dll", "gabor_dll\gabor_dll.vcproj", "{E900958C-16BD-4641-B6E1-8059FB434643}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gabor_dll_PC", "gabor_dll_PC\gabor_dll_PC.vcxproj", "{5943171A-B789-4BDC-8FD6-6278D92BE1FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|TE6410 Board (ARMV4I) = Debug|TE6410 Board (ARMV4I)
+		Debug|Win32 = Debug|Win32
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|TE6410 Board (ARMV4I) = Release|TE6410 Board (ARMV4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Debug|TE6410 Board (ARMV4I).ActiveCfg = Debug|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Debug|Win32.Build.0 = Debug|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Release|TE6410 Board (ARMV4I).ActiveCfg = Release|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Release|Win32.ActiveCfg = Release|Win32
+		{78E425CD-A4EC-4DD7-B7D7-19CE21E3C88C}.Release|Win32.Build.0 = Release|Win32
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|Mixed Platforms.ActiveCfg = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|Mixed Platforms.Build.0 = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|Mixed Platforms.Deploy.0 = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|TE6410 Board (ARMV4I).ActiveCfg = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|TE6410 Board (ARMV4I).Build.0 = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|TE6410 Board (ARMV4I).Deploy.0 = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|Win32.ActiveCfg = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|Mixed Platforms.ActiveCfg = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|Mixed Platforms.Build.0 = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|Mixed Platforms.Deploy.0 = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|TE6410 Board (ARMV4I).ActiveCfg = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|TE6410 Board (ARMV4I).Build.0 = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|TE6410 Board (ARMV4I).Deploy.0 = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|Win32.ActiveCfg = Release|TE6410 Board (ARMV4I)
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Debug|TE6410 Board (ARMV4I).ActiveCfg = Debug|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Debug|Win32.Build.0 = Debug|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Release|TE6410 Board (ARMV4I).ActiveCfg = Release|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Release|Win32.ActiveCfg = Release|Win32
+		{5943171A-B789-4BDC-8FD6-6278D92BE1FF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

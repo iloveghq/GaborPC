@@ -1,0 +1,308 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\SOR.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SOR.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SOR"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SOR 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_SOR_DIALOG DIALOGEX 0, 0, 784, 486
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "算法测试V20150917"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,689,3,49,21
+    EDITTEXT        IDC_FILENAME,1,8,343,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览...",IDC_BUTTON1,347,4,62,21
+    PUSHBUTTON      "处理前",IDC_READ,423,4,62,21
+    EDITTEXT        IDC_START,4,131,6,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "起始字节位置",IDC_STATIC,2,119,8,8,NOT WS_VISIBLE
+    PUSHBUTTON      "保存数据",IDC_SAVE,0,133,6,6,NOT WS_VISIBLE
+    PUSHBUTTON      "保存数据(原始整数)",IDC_SAVE2,0,24,121,33
+    PUSHBUTTON      "处理后",IDC_READ2,499,4,62,21
+    PUSHBUTTON      "",IDC_BUT_OTDR_TRACE,0,149,781,335
+    PUSHBUTTON      "还原",IDC_READ3,0,114,121,33
+    PUSHBUTTON      "保存处理后数据+波长+脉宽+采样",IDC_SAVE3,0,69,121,33
+    LTEXT           "ALPHA_COEFF_SMOOTH:",IDC_STATIC,123,30,77,8
+    EDITTEXT        IDC_ALPHA_COEFF_SMOOTH,200,27,34,14,ES_AUTOHSCROLL
+    LTEXT           "ALPHA_COEFF_MDY:",IDC_STATIC,123,51,65,8
+    EDITTEXT        IDC_ALPHA_COEFF_MDY,200,48,34,14,ES_AUTOHSCROLL
+    LTEXT           "FILST_REF_LENGTH:",IDC_STATIC,123,71,69,8
+    EDITTEXT        IDC_FILST_REF_LENGTH,200,68,34,14,ES_AUTOHSCROLL
+    LTEXT           "ALPHA_COEFF_RISE:",IDC_STATIC,248,30,69,8
+    EDITTEXT        IDC_ALPHA_COEFF_RISE,317,27,34,14,ES_AUTOHSCROLL
+    LTEXT           "ALPHA_COEFF_DIF:",IDC_STATIC,248,51,65,8
+    EDITTEXT        IDC_ALPHA_COEFF_DIF,317,48,34,14,ES_AUTOHSCROLL
+    LTEXT           "REVB_DOWN_LENGTH:",IDC_STATIC,248,71,69,8
+    EDITTEXT        IDC_REVB_DOWN_LENGTH,317,68,34,14,ES_AUTOHSCROLL
+    LTEXT           "ALPHA_COEFF_DOWN:",IDC_STATIC,363,30,69,8
+    EDITTEXT        IDC_ALPHA_COEFF_DOWN,430,27,34,14,ES_AUTOHSCROLL
+    LTEXT           "DIF_DEGREE_MULTI:",IDC_STATIC,363,51,69,8
+    EDITTEXT        IDC_DIF_DEGREE_MULTI,430,48,34,14,ES_AUTOHSCROLL
+    LTEXT           "REVB_RISE_LENGTH:",IDC_STATIC,363,71,69,8
+    EDITTEXT        IDC_REVB_RISE_LENGTH,430,68,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MY_SPIN8,"msctls_updown32",UDS_ARROWKEYS,234,26,11,15
+    CONTROL         "",IDC_MY_SPIN9,"msctls_updown32",UDS_ARROWKEYS,351,26,11,15
+    CONTROL         "",IDC_MY_SPIN10,"msctls_updown32",UDS_ARROWKEYS,464,26,11,15
+    CONTROL         "",IDC_MY_SPIN11,"msctls_updown32",UDS_ARROWKEYS,234,48,11,15
+    CONTROL         "",IDC_MY_SPIN12,"msctls_updown32",UDS_ARROWKEYS,351,48,11,15
+    CONTROL         "",IDC_MY_SPIN13,"msctls_updown32",UDS_ARROWKEYS,464,48,11,15
+    CONTROL         "",IDC_MY_SPIN14,"msctls_updown32",UDS_ARROWKEYS,234,68,11,15
+    CONTROL         "",IDC_MY_SPIN15,"msctls_updown32",UDS_ARROWKEYS,351,67,11,15
+    CONTROL         "",IDC_MY_SPIN16,"msctls_updown32",UDS_ARROWKEYS,464,68,11,15
+    PUSHBUTTON      "默认",IDC_DEFAULT,429,85,46,20
+    LTEXT           "LOW_NOISE_THD:",IDC_STATIC,123,92,57,8
+    EDITTEXT        IDC_ENVELOPE_REC_COEFF,199,90,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MY_SPIN19,"msctls_updown32",UDS_ARROWKEYS,233,89,11,15
+    LTEXT           "衰减:",IDC_STATIC,122,129,21,8
+    EDITTEXT        IDC_EDIT_ATTENUCTION,144,127,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MY_SPIN21,"msctls_updown32",UDS_ARROWKEYS,178,125,11,15
+    LTEXT           "反射:",IDC_STATIC,194,129,21,8
+    EDITTEXT        IDC_REFLECT,216,127,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MY_SPIN23,"msctls_updown32",UDS_ARROWKEYS,250,125,11,15
+    LTEXT           "末端:",IDC_STATIC,267,131,21,8
+    EDITTEXT        IDC_EDIT_FIBER_END,289,127,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MY_SPIN25,"msctls_updown32",UDS_ARROWKEYS,323,127,11,15
+    LTEXT           "散射:",IDC_STATIC,339,131,21,8
+    EDITTEXT        IDC_EDIT_SCATTER_COEFF,361,127,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MY_SPIN27,"msctls_updown32",UDS_ARROWKEYS,395,127,11,15
+    PUSHBUTTON      "默认",IDC_DEFAULT2,429,124,46,20
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,478,27,302,120
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 428, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,129,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,129,24,50,14
+    CONTROL         "",IDC_MY_SPIN1,"msctls_updown32",UDS_ARROWKEYS,19,46,11,14
+    CONTROL         "",IDC_MY_SPIN2,"msctls_updown32",UDS_ARROWKEYS,32,46,11,14
+    CONTROL         "",IDC_MY_SPIN3,"msctls_updown32",UDS_ARROWKEYS,44,46,11,14
+    CONTROL         "",IDC_MY_SPIN4,"msctls_updown32",UDS_ARROWKEYS,55,46,11,14
+    CONTROL         "",IDC_MY_SPIN5,"msctls_updown32",UDS_ARROWKEYS,67,46,11,14
+    CONTROL         "",IDC_MY_SPIN6,"msctls_updown32",UDS_ARROWKEYS,79,47,11,14
+    CONTROL         "",IDC_MY_SPIN7,"msctls_updown32",UDS_ARROWKEYS,92,47,11,14
+    CONTROL         "",IDC_MY_SPIN8,"msctls_updown32",UDS_ARROWKEYS,104,47,11,14
+    CONTROL         "",IDC_MY_SPIN9,"msctls_updown32",UDS_ARROWKEYS,115,47,11,14
+    CONTROL         "",IDC_MY_SPIN10,"msctls_updown32",UDS_ARROWKEYS,127,47,11,14
+    CONTROL         "",IDC_MY_SPIN11,"msctls_updown32",UDS_ARROWKEYS,16,62,11,14
+    CONTROL         "",IDC_MY_SPIN12,"msctls_updown32",UDS_ARROWKEYS,29,62,11,14
+    CONTROL         "",IDC_MY_SPIN13,"msctls_updown32",UDS_ARROWKEYS,41,62,11,14
+    CONTROL         "",IDC_MY_SPIN14,"msctls_updown32",UDS_ARROWKEYS,52,62,11,14
+    CONTROL         "",IDC_MY_SPIN15,"msctls_updown32",UDS_ARROWKEYS,64,62,11,14
+    CONTROL         "",IDC_MY_SPIN16,"msctls_updown32",UDS_ARROWKEYS,76,63,11,14
+    CONTROL         "",IDC_MY_SPIN17,"msctls_updown32",UDS_ARROWKEYS,89,63,11,14
+    CONTROL         "",IDC_MY_SPIN18,"msctls_updown32",UDS_ARROWKEYS,101,63,11,14
+    CONTROL         "",IDC_MY_SPIN19,"msctls_updown32",UDS_ARROWKEYS,112,63,11,14
+    CONTROL         "",IDC_MY_SPIN20,"msctls_updown32",UDS_ARROWKEYS,124,63,11,14
+    CONTROL         "",IDC_MY_SPIN21,"msctls_updown32",UDS_ARROWKEYS,15,80,11,14
+    CONTROL         "",IDC_MY_SPIN22,"msctls_updown32",UDS_ARROWKEYS,28,80,11,14
+    CONTROL         "",IDC_MY_SPIN23,"msctls_updown32",UDS_ARROWKEYS,40,80,11,14
+    CONTROL         "",IDC_MY_SPIN24,"msctls_updown32",UDS_ARROWKEYS,51,80,11,14
+    CONTROL         "",IDC_MY_SPIN25,"msctls_updown32",UDS_ARROWKEYS,63,80,11,14
+    CONTROL         "",IDC_MY_SPIN26,"msctls_updown32",UDS_ARROWKEYS,75,81,11,14
+    CONTROL         "",IDC_MY_SPIN27,"msctls_updown32",UDS_ARROWKEYS,88,81,11,14
+    CONTROL         "",IDC_MY_SPIN28,"msctls_updown32",UDS_ARROWKEYS,100,81,11,14
+    CONTROL         "",IDC_MY_SPIN29,"msctls_updown32",UDS_ARROWKEYS,111,81,11,14
+    CONTROL         "",IDC_MY_SPIN30,"msctls_updown32",UDS_ARROWKEYS,123,81,11,14
+    CONTROL         "",IDC_MY_SPIN31,"msctls_updown32",UDS_ARROWKEYS,15,97,11,14
+    CONTROL         "",IDC_MY_SPIN32,"msctls_updown32",UDS_ARROWKEYS,28,97,11,14
+    CONTROL         "",IDC_MY_SPIN33,"msctls_updown32",UDS_ARROWKEYS,40,97,11,14
+    CONTROL         "",IDC_MY_SPIN34,"msctls_updown32",UDS_ARROWKEYS,51,97,11,14
+    CONTROL         "",IDC_MY_SPIN35,"msctls_updown32",UDS_ARROWKEYS,63,97,11,14
+    CONTROL         "",IDC_MY_SPIN36,"msctls_updown32",UDS_ARROWKEYS,75,98,11,14
+    CONTROL         "",IDC_MY_SPIN37,"msctls_updown32",UDS_ARROWKEYS,88,98,11,14
+    CONTROL         "",IDC_MY_SPIN38,"msctls_updown32",UDS_ARROWKEYS,100,98,11,14
+    CONTROL         "",IDC_MY_SPIN39,"msctls_updown32",UDS_ARROWKEYS,111,98,11,14
+    CONTROL         "",IDC_MY_SPIN40,"msctls_updown32",UDS_ARROWKEYS,123,98,11,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "SOR.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "SOR.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 777
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 479
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 421
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SOR(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\SOR.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

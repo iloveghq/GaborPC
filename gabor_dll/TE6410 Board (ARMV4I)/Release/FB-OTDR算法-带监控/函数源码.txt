@@ -1,0 +1,117 @@
+////*****************************************************************************************/
+/*****************************************************************************
+wavelength:波长
+pulseWidth：脉宽
+input_data[]：母线+实时测试曲线
+paramLen  数据总长
+dB_Loss   损耗阈值
+dB_reflex 反射阈值
+Sample_freaq 采样频率
+Index_N    群折射率
+start_point：监控起始点
+end_point：  监控结束点
+
+返回：事件列表
+
+*********************************************************************/
+
+Gabor_Result The_monitoring_mode(int wavelength,int pulseWidth,WORD input_data[],INT paramLen,float dB_Loss,float dB_reflex,float Sample_freaq,float Index_N,int start_point,int end_point)
+{
+	double Light_fiber_speed=300/Index_N;//缩小了10^6倍
+	//两个数据之间的时间间隔：
+	double Sample_time=Sample_freaq;//放大了10^6倍
+	Sample_time=1/Sample_time;
+	//测量距离计算
+	double Measure_distacne = Light_fiber_speed*Sample_time*paramLen/2;
+
+	int i=0,j=0,k=0;
+
+
+
+	int pulse_step_point=0;//一个脉宽的采样点数
+	int data_length=paramLen/2;
+	int* Parameter_data_buff=new int[data_length];//短时傅里叶变化结果Cn
+	memset(Parameter_data_buff,0,data_length*sizeof(int));
+	int* Testing_data_buff=new int[data_length];
+	memset(Testing_data_buff,0,data_length*sizeof(int));
+
+	pulse_step_point=2*pulseWidth/25*(Sample_freaq/25);
+
+Gabor_Result sGabor_Result;
+	for(i=0;i<data_length;i++)//分离数据，参考数据和原始数据分离
+	{
+		Parameter_data_buff[i]=65535-input_data[i];
+		Testing_data_buff[i]=65535-input_data[i+data_length];
+	}
+
+	//////寻找监控起始点,以最高点为监控起始点
+	int max_data=0;
+	int max_data_number=5;
+	for(i=5;i<3*pulse_step_point;i++)
+	{
+		if(max_data<=Parameter_data_buff[i])
+		{
+			max_data=Parameter_data_buff[i];
+			max_data_number=i;
+		}
+	}
+	/////寻找监控结束点
+
+	//计算参数曲线的监控点与测量曲线的监控点的差值
+	if(start_point==0)start_point=max_data_number;
+	int D_value_dB=Parameter_data_buff[start_point]-Testing_data_buff[start_point];
+	//平移测量曲线
+	for(i=0;i<data_length;i++)
+	{
+		Testing_data_buff[i]=Testing_data_buff[i]+D_value_dB;
+	}
+
+	//查找故障点
+	int up_time=0,down_time=0,D_value_dB_point=0;
+	float Loss_accout=0;
+	float AVG_loss=0;
+	sGabor_Result.Valid_Num=0;
+    Loss_accout=0;
+	for(i=start_point;i<end_point;i++)
+	{
+		
+		
+		D_value_dB_point=Parameter_data_buff[i]-Testing_data_buff[i];
+		if(D_value_dB_point>0&&D_value_dB_point>(dB_Loss+Loss_accout))//测试曲线比参考曲线低
+		{
+			down_time++;
+			up_time=0;
+			if(down_time>=pulse_step_point/2)
+			{
+				sGabor_Result.Event_Array[sGabor_Result.Valid_Num]=i-down_time;
+				AVG_loss=0;
+				for(j=i-up_time;j<i;j++)//算平均损耗
+				{
+					AVG_loss=AVG_loss+(Parameter_data_buff[j]-Parameter_data_buff[j]-Testing_data_buff[j]);
+				}
+				if(up_time!=0)
+				AVG_loss=AVG_loss/up_time;
+				sGabor_Result.Event_Loss[sGabor_Result.Valid_Num++]=AVG_loss;
+				i=i+pulse_step_point/2;
+
+				down_time=0;
+				up_time=0;
+				if(sGabor_Result.Valid_Num>=99)break;
+				for(k=0;k<sGabor_Result.Valid_Num;k++)
+				{
+					Loss_accout=Loss_accout+sGabor_Result.Event_Loss[k];
+				}
+				continue;
+			}
+		}
+		else//测量曲线比参考曲线高
+		{
+			up_time++;
+			if(up_time>=3)down_time=0;
+		}
+	}
+	delete[] Parameter_data_buff;
+	delete[] Testing_data_buff;
+return sGabor_Result;
+
+}

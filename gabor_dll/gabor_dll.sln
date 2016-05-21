@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gabor_dll", "gabor_dll\gabor_dll.vcproj", "{E900958C-16BD-4641-B6E1-8059FB434643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TE6410 Board (ARMV4I) = Debug|TE6410 Board (ARMV4I)
+		Release|TE6410 Board (ARMV4I) = Release|TE6410 Board (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|TE6410 Board (ARMV4I).ActiveCfg = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|TE6410 Board (ARMV4I).Build.0 = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Debug|TE6410 Board (ARMV4I).Deploy.0 = Debug|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|TE6410 Board (ARMV4I).ActiveCfg = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|TE6410 Board (ARMV4I).Build.0 = Release|TE6410 Board (ARMV4I)
+		{E900958C-16BD-4641-B6E1-8059FB434643}.Release|TE6410 Board (ARMV4I).Deploy.0 = Release|TE6410 Board (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
